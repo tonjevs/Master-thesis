@@ -1,0 +1,53 @@
+\documentclass[UKenglish]{uiomasterthesis}
+\usepackage[utf8]{inputenc}                
+\usepackage[T1]{url}\urlstyle{sf}
+\usepackage{babel, csquotes, graphicx, textcomp, uiomasterfp, varioref}
+\usepackage[backend=biber,style=numeric-comp]{biblatex}
+\usepackage[hidelinks, hypertexnames=false]{hyperref}
+
+\addbibresource{project.bib}
+
+\author{Tonje Viddal Sandanger}
+\title{Enhancing Gait Analysis through eXplainable AI}
+\begin{document}
+\uiomasterfp[
+    master, 
+    program={Informatics: Robotics and Intelligent Systems},
+    color=blue, dept={Department of Informatics}, 
+    fac={Faculty of Mathematics and Natural Sciences},
+    supervisors={Professor Jim Tørressen \and Dr. Ola Wiig \and Eirik Gromholt Homlong \and Rahul Prasanna Kumar},
+    long
+]                                
+
+\frontmatter{}
+\begin{abstract}
+  Here come 3--6 sentences describing your thesis.
+\end{abstract}
+
+\begin{xabstract}[Sammendrag]               
+  Here comes the abstract in a different language.
+\end{xabstract}
+
+\tableofcontents{}                          
+\listoffigures{}                            
+\listoftables{}                             
+
+\begin{preface}
+  Here comes your preface, including acknowledgments and thanks.
+\end{preface}
+
+\mainmatter{}
+\part{Introduction}                   
+\chapter{Background}                 
+\section{Xxx's work} 
+
+
+\part{The project}                    
+\chapter{Planning the project}        
+
+\part{Conclusion}                    
+\chapter{Results}                     
+
+\backmatter{}
+\printbibliography{}
+\end{document}
